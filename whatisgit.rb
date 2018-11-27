@@ -3,6 +3,6 @@ class WhatIsGit
     puts "https://wikipedia"
   end
   def show
-   puts "Git is easy if you understand the basis"
+   puts "if you understand the basis Git is easy."
   end
 end
