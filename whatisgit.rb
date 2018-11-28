@@ -3,6 +3,13 @@ class WhatIsGit
     puts "https://#{lang}.wikipedia"
   end
   def show
-   puts "If you understand the basis Git is easy."
+   puts "Do you understand the basis?[yes/no]"
+   input = gets.chomp.downcase
+   case input
+   when "yes"
+     puts "git is easy"
+   else
+     puts "git is difficult..."
+   end
   end
 end
