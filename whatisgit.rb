@@ -4,7 +4,7 @@ class WhatIsGit
   end
   def show
    case input("Do you understand the basis?[yes/no]")
-   when "yes"
+   when "yes", "y"
      puts "git is easy"
    else
      puts "git is difficult..."
