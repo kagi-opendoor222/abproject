@@ -1,6 +1,6 @@
 class WhatIsGit
   def about(lang = 'en')
-    puts "https://#{lang}.wikipedia"
+    puts "https://#{lang}.wikipedia2"
   end
   def show
    case input("Do you understand the basis?[yes/no]")
