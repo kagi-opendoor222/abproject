@@ -3,7 +3,7 @@ class WhatIsGit
     puts "https://#{lang}.wikipedia2"
   end
   def show
-   case input("Do you understand the basis?[yes/no]")
+   case input("Do you understand the basis of Git?[yes/no]")
    when "yes"
      puts "git is easy"
    else
