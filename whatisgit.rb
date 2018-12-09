@@ -13,6 +13,6 @@ class WhatIsGit
   private
   def input(message)
     puts message
-    gets.chomp.downcase
+    gets.chomp.tr('A-Za-z','A-Za-z').downcase
   end
 end
