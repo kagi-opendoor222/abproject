@@ -15,4 +15,7 @@ class WhatIsGit
     puts message
     gets.chomp.downcase
   end
+  def language
+    ENV['LANG'][0..1] || 'en'
+  end 
 end
