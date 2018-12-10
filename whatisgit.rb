@@ -1,8 +1,5 @@
 class WhatIsGit
-  def about(lang = nil)
-    if lang==nil then
-      lang = language
-    end
+  def about(lang = language)
     puts "https://#{lang}.wikipedia2"
   end
   def show
@@ -13,16 +10,7 @@ class WhatIsGit
      puts "git is difficult..."
    end
   end
-  def aaa
-
-  end
-  def bbb
-
-  end
   private
-  def language
-
-  end 
   def input(message)
     puts message
     gets.chomp.downcase
